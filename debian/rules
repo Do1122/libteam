@@ -1,0 +1,44 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+%:
+	dh $@ --with autoreconf
+
+override_dh_auto_configure:
+	#./autogen.sh
+	dh_auto_configure -- \
+                          --disable-silent-rules \
+                          --enable-static=no
+
+override_dh_auto_install:
+	dh_auto_install --destdir=$(CURDIR)/debian/tmp
+
+#override_dh_installchangelogs:
+#	dh_installchangelogs NEWS
+
+override_dh_builddeb:
+	dh_builddeb -- -Zxz
+
+DPATH = $(abspath $(dir $(MAKEFILE_LIST)))
+PKG  = $(shell dpkg-parsechangelog -l$(DPATH)/changelog | perl -ne 'print $$1 if m{Source:\s*(\w+)}')
+VER ?= $(shell dpkg-parsechangelog -l$(DPATH)/changelog | perl -ne 'print $$1 if m{Version:\s*([\d\.+git]+)}')
+GDATE = $(shell echo $(VER) | perl -ne 'print "$$1-$$2-$$3" if m/\+git(\d{4})(\d{2})(\d{2})/')
+.PHONY: get-orig-source
+get-orig-source: $(PKG)_$(VER).orig.tar.xz
+	@
+
+$(PKG)_$(VER).orig.tar.xz:
+	@echo "# Downloading..."
+	#uscan --noconf --verbose --rename --destdir=$(CURDIR) --check-dirname-level=0 --force-download --download-version $(VER) $(DPATH)
+	git clone git://github.com/jpirko/libteam.git $(PKG)-$(VER)
+	cd $(PKG)-$(VER) \
+	&& git reset --hard $$(git rev-list --all -n 1 --before="$(GDATE) +0000") \
+	&& git checkout master \
+	&& [ -s ChangeLog ] || ( echo "# Generating ChangeLog..." \
+	&& git log --pretty="format:%ad  %aN  <%aE>%n%n%x09* %s%d%n" --date=short > ChangeLog ) \
+	&& $(RM) -r .git .git* && cd .. && echo "# Packing..." \
+	&& tar cJf $(PKG)_$(VER).orig.tar.xz $(PKG)-$(VER) --mtime=$(GDATE)
+	$(RM) -r $(PKG)-$(VER)

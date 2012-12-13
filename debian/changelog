@@ -1,0 +1,5 @@
+libteam (0+git20121122-1) UNRELEASED; urgency=low
+
+  * Initial release (Closes: #695850)
+
+ -- Dmitry Smirnov <onlyjob@member.fsf.org>  Mon, 12 Nov 2012 23:09:20 +1100

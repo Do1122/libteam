@@ -1,0 +1,69 @@
+Source: libteam
+Section: net
+Priority: extra
+Maintainer: Dmitry Smirnov <onlyjob@member.fsf.org>
+Build-Depends: debhelper (>= 9), dh-autoreconf
+              ,libdaemon-dev
+              ,libdbus-1-dev
+              ,libjansson-dev
+              ,libnl-3-dev
+              ,libnl-genl-3-dev
+              ,libnl-cli-3-dev
+              ,pkg-config
+Standards-Version: 3.9.4
+Homepage: https://libteam.org
+VCS-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/libteam.git
+VCS-Git: git://anonscm.debian.org/collab-maint/libteam.git
+
+Package: libteam0
+Architecture: linux-any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends:
+Description: library for controlling team network device
+ Libteam provide mechanism to team multiple NICs (ports) into one
+ logical one (teamdev) at L2 layer. The process is called "channel
+ bonding", "Ethernet bonding", "channel teaming", "link aggregation",
+ etc. This is already implemented in the Linux kernel by the bonding
+ driver but the way Team is configured differs dramatically from the way
+ bonding is. Team has many advantages over Bonding.
+ .
+ Libteam requires Linux kernel 3.3 or higher.
+ .
+ This package provides an API to control team network devices.
+
+Package: libteam-dev
+Section: libdevel
+Architecture: linux-any
+Multi-Arch: same
+Pre-Depends: multiarch-support
+Depends: ${misc:Depends}, libteam0 (= ${binary:Version})
+Recommends:
+Description: library for controlling team network device -- dev files
+ Libteam provide mechanism to team multiple NICs (ports) into one
+ logical one (teamdev) at L2 layer. The process is called "channel
+ bonding", "Ethernet bonding", "channel teaming", "link aggregation",
+ etc. This is already implemented in the Linux kernel by the bonding
+ driver but the way Team is configured differs dramatically from the way
+ bonding is. Team has many advantages over Bonding.
+ .
+ Libteam requires Linux kernel 3.3 or higher.
+ .
+ This package provides development headers.
+
+Package: libteam-utils
+Architecture: linux-any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends:
+Description: library for controlling team network device -- userspace utilities
+ Libteam provide mechanism to team multiple NICs (ports) into one
+ logical one (teamdev) at L2 layer. The process is called "channel
+ bonding", "Ethernet bonding", "channel teaming", "link aggregation",
+ etc. This is already implemented in the Linux kernel by the bonding
+ driver but the way Team is configured differs dramatically from the way
+ bonding is. Team has many advantages over Bonding.
+ .
+ Libteam requires Linux kernel 3.3 or higher.
+ .
+ This package provies user-space counterpart for team network driver.

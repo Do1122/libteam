@@ -1,0 +1,18 @@
+Author: Dmitry Smirnov <onlyjob@member.fsf.org>
+Last-Update: 2012-12-04
+Forwarded: no
+Description: fixes FTBFS with format hardening
+
+--- a/teamd/teamdctl.c
++++ b/teamd/teamdctl.c
+@@ -63,9 +63,9 @@
+ 
+ #define pr_err(args...) fprintf(stderr, ##args)
+ #define pr_outx(verb_level, args...) \
+ 	if (verb_level <= g_verbosity) { \
+-		fprintf(stdout, g_indent_str); \
++		fprintf(stdout, "%s", g_indent_str); \
+ 		fprintf(stdout, ##args); \
+ 	}
+ #define pr_out(args...) pr_outx(DEFAULT_VERB, ##args)
+ #define pr_out2(args...) pr_outx(VERB2, ##args)
