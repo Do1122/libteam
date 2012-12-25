@@ -26,8 +26,12 @@ Description: library for controlling team network device
  logical one (teamdev) at L2 layer. The process is called "channel
  bonding", "Ethernet bonding", "channel teaming", "link aggregation",
  etc. This is already implemented in the Linux kernel by the bonding
- driver but the way Team is configured differs dramatically from the way
- bonding is. Team has many advantages over Bonding.
+ driver but unlike bonding driver libteam (user space) have the
+ following additional features:
+  * load-balancing for LACP support
+  * NS/NA (IPV6) link monitoring
+  * port priorities and stickiness ("primary" option enhancement)
+  * separate per-port link monitoring setup
  .
  Libteam requires Linux kernel 3.3 or higher.
  .
@@ -45,8 +49,12 @@ Description: library for controlling team network device -- dev files
  logical one (teamdev) at L2 layer. The process is called "channel
  bonding", "Ethernet bonding", "channel teaming", "link aggregation",
  etc. This is already implemented in the Linux kernel by the bonding
- driver but the way Team is configured differs dramatically from the way
- bonding is. Team has many advantages over Bonding.
+ driver but unlike bonding driver libteam (user space) have the
+ following additional features:
+  * load-balancing for LACP support
+  * NS/NA (IPV6) link monitoring
+  * port priorities and stickiness ("primary" option enhancement)
+  * separate per-port link monitoring setup
  .
  Libteam requires Linux kernel 3.3 or higher.
  .
@@ -61,8 +69,12 @@ Description: library for controlling team network device -- userspace utilities
  logical one (teamdev) at L2 layer. The process is called "channel
  bonding", "Ethernet bonding", "channel teaming", "link aggregation",
  etc. This is already implemented in the Linux kernel by the bonding
- driver but the way Team is configured differs dramatically from the way
- bonding is. Team has many advantages over Bonding.
+ driver but unlike bonding driver libteam (user space) have the
+ following additional features:
+  * load-balancing for LACP support
+  * NS/NA (IPV6) link monitoring
+  * port priorities and stickiness ("primary" option enhancement)
+  * separate per-port link monitoring setup
  .
  Libteam requires Linux kernel 3.3 or higher.
  .
