@@ -1,4 +1,4 @@
-libteam (0+git20121122-1) UNRELEASED; urgency=low
+libteam (1.0+git20130131-1) UNRELEASED; urgency=low
 
   * Initial release (Closes: #695850)
 
