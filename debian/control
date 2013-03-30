@@ -1,6 +1,6 @@
 Source: libteam
 Section: net
-Priority: extra
+Priority: optional
 Maintainer: Dmitry Smirnov <onlyjob@member.fsf.org>
 Build-Depends: debhelper (>= 9), dh-autoreconf
               ,libdaemon-dev
