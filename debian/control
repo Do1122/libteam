@@ -12,8 +12,8 @@ Build-Depends: debhelper (>= 9), dh-autoreconf
               ,pkg-config
 Standards-Version: 3.9.4
 Homepage: https://libteam.org
-VCS-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/libteam.git
-VCS-Git: git://anonscm.debian.org/collab-maint/libteam.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/libteam.git
+Vcs-Git: git://anonscm.debian.org/collab-maint/libteam.git
 
 Package: libteam0
 Architecture: linux-any
