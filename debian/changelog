@@ -1,5 +1,5 @@
-libteam (1.0+git20130131-1) UNRELEASED; urgency=low
+libteam (1.0+git20130323-1) UNRELEASED; urgency=low
 
   * Initial release (Closes: #695850)
 
- -- Dmitry Smirnov <onlyjob@member.fsf.org>  Mon, 12 Nov 2012 23:09:20 +1100
+ -- Dmitry Smirnov <onlyjob@debian.org>  Sat, 30 Mar 2013 12:09:16 +1100

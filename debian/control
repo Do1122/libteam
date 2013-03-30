@@ -7,8 +7,9 @@ Build-Depends: debhelper (>= 9), dh-autoreconf
               ,libdbus-1-dev
               ,libjansson-dev
               ,libnl-3-dev
-              ,libnl-genl-3-dev
               ,libnl-cli-3-dev
+              ,libnl-genl-3-dev
+              ,libnl-route-3-dev (>= 3.2.19)
               ,pkg-config
 # git is needed by get-orig-source
  ,git

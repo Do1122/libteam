@@ -5,7 +5,7 @@ Description: spelling correction(s)
 
 --- a/teamd/teamd.c
 +++ b/teamd/teamd.c
-@@ -1440,9 +1440,9 @@
+@@ -1438,9 +1438,9 @@
  	}
  
  	daemon_retval_send(0);

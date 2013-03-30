@@ -26,7 +26,7 @@ Description: lintianisation of man pages
  .PP
  teamd uses JSON format configuration. Here comes a list of config options.
  .TP
-@@ -199,9 +201,9 @@
+@@ -289,9 +291,9 @@
    "runner": {"name": "activebackup"},
    "link_watch": {"name": "ethtool"},
    "ports": {
@@ -37,7 +37,7 @@ Description: lintianisation of man pages
      },
      "eth2": {
        "prio": 100
-@@ -222,9 +224,9 @@
+@@ -312,9 +314,9 @@
      "delay_down": 1000
    },
    "ports": {
@@ -48,7 +48,7 @@ Description: lintianisation of man pages
      },
      "eth2": {
        "prio": 100
-@@ -247,9 +249,9 @@
+@@ -337,9 +339,9 @@
      "target_host": "192.168.23.1"
    },
    "ports": {
@@ -59,7 +59,7 @@ Description: lintianisation of man pages
      },
      "eth2": {
        "prio": 100
-@@ -281,9 +283,9 @@
+@@ -371,9 +373,9 @@
    }
  ],
  "ports": {
