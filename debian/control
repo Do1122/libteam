@@ -10,6 +10,8 @@ Build-Depends: debhelper (>= 9), dh-autoreconf
               ,libnl-genl-3-dev
               ,libnl-cli-3-dev
               ,pkg-config
+# git is needed by get-orig-source
+ ,git
 Standards-Version: 3.9.4
 Homepage: https://libteam.org
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/libteam.git
