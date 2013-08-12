@@ -4,10 +4,17 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
+# ABI major version
+libteam_somajor=$(shell perl -nE 'print $$1 if m{^AC_SUBST\SLIBTEAM_CURRENT,\s*(\d+)};' configure.ac)
+libteamdctl_somajor=$(shell perl -nE 'print $$1 if m{^AC_SUBST\SLIBTEAMDCTL_CURRENT,\s*(\d+)};' configure.ac)
+
 %:
 	dh $@ --with autoreconf
 
 override_dh_auto_configure:
+	$(info I: libteam$(libteam_somajor) libteamdctl$(libteamdctl_somajor))
+	$(if $(wildcard debian/libteam$(libteam_somajor).symbols),,$(error Packaging files are not set up for base library name libteam$(libteam_somajor).))
+	$(if $(wildcard debian/libteamdctl$(libteamdctl_somajor).symbols),,$(error Packaging files are not set up for base library name libteamdctl$(libteamdctl_somajor).))
 	#./autogen.sh
 	dh_auto_configure -- \
                           --disable-silent-rules \
