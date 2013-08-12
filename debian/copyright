@@ -4,8 +4,14 @@ Upstream-Contact: Jiří Pírko <jpirko@redhat.com>
 Source: https://libteam.org
 
 Files: *
-Copyright: 2011-2012 Jiri Pirko <jpirko@redhat.com>
+Copyright: 2011-2013 Jiri Pirko <jpirko@redhat.com>
+                     Jiri Pirko <jiri@resnulli.us>
+           2013      Jiri Zupka <jzupka@redhat.com>
 License: LGPL-2.1+
+
+Files: utils/Makefile.am
+Copyright: 2013 Flavio Leitner <fbl@redhat.com>
+License: GPL-2
 
 Files: debian/*
 Copyright: 2012-2013 Dmitry Smirnov <onlyjob@debian.org>
@@ -24,3 +30,16 @@ License: LGPL-2.1+
  ․
  The complete text of the GNU Lesser General Public License
  version 2.1 can be found in "/usr/share/common-licenses/LGPL-2.1".
+
+License: GPL-2
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License version 2
+ as published by the Free Software Foundation.
+ ․
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ ․
+ The complete text of the GNU General Public License 2
+ can be found in "/usr/share/common-licenses/GPL-2".
