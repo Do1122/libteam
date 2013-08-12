@@ -18,13 +18,35 @@ Homepage: https://libteam.org
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/libteam.git
 Vcs-Git: git://anonscm.debian.org/collab-maint/libteam.git
 
-Package: libteam0
+Package: libteam5
 Architecture: linux-any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends:
-Description: library for controlling team network device
+Description: library for controlling team network device ::FIXME
+ Libteam provide mechanism to team multiple NICs (ports) into one
+ logical one (teamdev) at L2 layer. The process is called "channel
+ bonding", "Ethernet bonding", "channel teaming", "link aggregation",
+ etc. This is already implemented in the Linux kernel by the bonding
+ driver but unlike bonding driver libteam (user space) have the
+ following additional features:
+  * load-balancing for LACP support
+  * NS/NA (IPV6) link monitoring
+  * port priorities and stickiness ("primary" option enhancement)
+  * separate per-port link monitoring setup
+ .
+ Libteam requires Linux kernel 3.3 or higher.
+ .
+ This package provides an API to control team network devices.
+
+Package: libteamdctl0
+Architecture: linux-any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends:
+Description: library for controlling team network device ::FIXME
  Libteam provide mechanism to team multiple NICs (ports) into one
  logical one (teamdev) at L2 layer. The process is called "channel
  bonding", "Ethernet bonding", "channel teaming", "link aggregation",
@@ -45,7 +67,9 @@ Section: libdevel
 Architecture: linux-any
 Multi-Arch: same
 Pre-Depends: multiarch-support
-Depends: ${misc:Depends}, libteam0 (= ${binary:Version})
+Depends: ${misc:Depends}
+        ,libteam5 (= ${binary:Version})
+        ,libteamdctl0 (= ${binary:Version})
 Recommends:
 Description: library for controlling team network device -- dev files
  Libteam provide mechanism to team multiple NICs (ports) into one

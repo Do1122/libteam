@@ -1,5 +1,5 @@
-libteam (1.6-1) UNRELEASED; urgency=low
+libteam (1.7-1) UNRELEASED; urgency=low
 
   * Initial release (Closes: #695850).
 
- -- Dmitry Smirnov <onlyjob@debian.org>  Mon, 12 Aug 2013 10:42:26 +1000
+ -- Dmitry Smirnov <onlyjob@debian.org>  Tue, 13 Aug 2013 07:14:48 +1000
