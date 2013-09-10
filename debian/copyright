@@ -1,7 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0
 Upstream-Name: libteam
 Upstream-Contact: Jiří Pírko <jpirko@redhat.com>
-Source: https://libteam.org
+Source: https://github.com/jpirko/libteam
 
 Files: *
 Copyright: 2011-2013 Jiri Pirko <jpirko@redhat.com>
@@ -10,6 +10,7 @@ Copyright: 2011-2013 Jiri Pirko <jpirko@redhat.com>
 License: LGPL-2.1+
 
 Files: utils/Makefile.am
+       utils/bond2team
 Copyright: 2013 Flavio Leitner <fbl@redhat.com>
 License: GPL-2
 
