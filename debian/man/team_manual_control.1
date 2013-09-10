@@ -1,0 +1,41 @@
+.TH TEAM_MANUAL_CONTROL 1 "2013-09-11" "libteam" "Team manual control"
+.SH NAME
+team_manual_control \(em team network device control utility
+.SH SYNOPSIS
+.B team_manual_control
+.B TEAMDEV
+.IR dumplist
+.RB {
+.B ports
+.RB }
+.br
+.B team_manual_control
+.B TEAMDEV
+.IR get
+.RB {
+.B mode
+.RB |
+.B activeport
+.RB }
+.br
+.B team_manual_control
+.B TEAMDEV
+.IR set
+.RB {
+.B mode
+.RB |
+.B activeport
+.RB }
+.BI value
+.br
+.SH DESCRIPTION
+.PP
+team_manual_control is a ???? to control a given team network device, during runtime.
+.SH SEE ALSO
+.BR teamdctl (8),
+.BR teamd.conf (5),
+.BR teamnl (8),
+.BR bond2team (1)
+.SH AUTHOR
+.PP
+Jiri Pirko is the original author and current maintainer of libteam.
