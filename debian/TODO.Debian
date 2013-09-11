@@ -1,0 +1,16 @@
+
+ * Update man pages "team_manual_control" and "team_monitor";
+   clarify section: 1 or 8 ?
+ :: On review with upstream.
+
+ * Update descriptions for "libteam5" and "libteamdctl0".
+ :: Waiting for feedback from upstream.
+
+ * no ChangeLog.
+ :: Discussed with upstream.
+
+ * FHS locations for executables.
+ :: Waiting for upstream's feedback.
+
+ * Testing and more testing
+ :: Help needed.
