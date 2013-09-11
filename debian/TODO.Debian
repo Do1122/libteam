@@ -6,9 +6,6 @@
    clarify section: 1 or 8 ?
  :: On review with upstream.
 
- * no ChangeLog.
- :: Discussed with upstream.
-
  * FHS locations for executables.
  :: Waiting for upstream's feedback.
 
