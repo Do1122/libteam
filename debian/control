@@ -24,7 +24,10 @@ Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends:
-Description: library for controlling team network device ::FIXME
+Description: library for communication with Netlink kernel module
+ "libteam" is a library for communication with kernel module (Netlink).
+ It is used by `teamd`.
+ .
  Libteam provide mechanism to team multiple NICs (ports) into one
  logical one (teamdev) at L2 layer. The process is called "channel
  bonding", "Ethernet bonding", "channel teaming", "link aggregation",
@@ -37,8 +40,6 @@ Description: library for controlling team network device ::FIXME
   * separate per-port link monitoring setup
  .
  Libteam requires Linux kernel 3.3 or higher.
- .
- This package provides an API to control team network devices.
 
 Package: libteamdctl0
 Architecture: linux-any
@@ -46,7 +47,10 @@ Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends:
-Description: library for controlling team network device ::FIXME
+Description: library for communication with `teamd` process
+ "libteamdctl" is a library for communication with teamd process
+ (via dbus, unix socket or zeromq). It is used by `teamdctl` utility.
+ .
  Libteam provide mechanism to team multiple NICs (ports) into one
  logical one (teamdev) at L2 layer. The process is called "channel
  bonding", "Ethernet bonding", "channel teaming", "link aggregation",
@@ -59,8 +63,6 @@ Description: library for controlling team network device ::FIXME
   * separate per-port link monitoring setup
  .
  Libteam requires Linux kernel 3.3 or higher.
- .
- This package provides an API to control team network devices.
 
 Package: libteam-dev
 Section: libdevel

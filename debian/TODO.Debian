@@ -1,10 +1,10 @@
 
+ * Double-check and possibly re-word "libteam5" and "libteamdctl0"
+   descriptions.
+
  * Update man pages "team_manual_control" and "team_monitor";
    clarify section: 1 or 8 ?
  :: On review with upstream.
-
- * Update descriptions for "libteam5" and "libteamdctl0".
- :: Waiting for feedback from upstream.
 
  * no ChangeLog.
  :: Discussed with upstream.
