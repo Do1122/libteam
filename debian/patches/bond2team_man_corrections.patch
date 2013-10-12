@@ -1,5 +1,7 @@
-Author: Dmitry Smirnov <onlyjob@member.fsf.org>
 Last-Update: 2013-09-11
+Forwarded: yes
+Applied-Upstream: https://github.com/jpirko/libteam/commit/b68f096dec08e8e02e06d1cbf6b902c88051da38
+Author: Dmitry Smirnov <onlyjob@member.fsf.org>
 Description: minor man page(s) correction(s) and lintianisation
  manpage-has-errors-from-man usr/share/man/man1/bond2team.1.gz 75: warning: macro `ni' not defined
  hyphen-used-as-minus-sign
