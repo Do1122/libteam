@@ -9,8 +9,7 @@ Copyright: 2011-2013 Jiri Pirko <jpirko@redhat.com>
            2013      Jiri Zupka <jzupka@redhat.com>
 License: LGPL-2.1+
 
-Files: utils/Makefile.am
-       utils/bond2team
+Files: utils/bond2team
 Copyright: 2013 Flavio Leitner <fbl@redhat.com>
 License: GPL-2
 
