@@ -1,3 +1,13 @@
+libteam (1.9-1) experimental; urgency=low
+
+  * New upstream release [November 2013].
+    - dropped all patches (applied-upstream).
+  * "debian/rules": don't try to ectract/check ABI/Soname numbers.
+  * Standards to 3.9.5
+  * Updated Homepage URL.
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Thu, 05 Dec 2013 02:42:38 +1100
+
 libteam (1.8-1) experimental; urgency=low
 
   * Initial release (Closes: #695850).
