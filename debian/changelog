@@ -2,7 +2,7 @@ libteam (1.9-1) experimental; urgency=low
 
   * New upstream release [November 2013].
     - dropped all patches (applied-upstream).
-  * "debian/rules": don't try to ectract/check ABI/Soname numbers.
+  * "debian/rules": don't try to extract/check ABI/Soname numbers.
   * Standards to 3.9.5
   * Updated Homepage URL.
 
