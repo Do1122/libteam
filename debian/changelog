@@ -1,3 +1,10 @@
+libteam (1.10-1) experimental; urgency=low
+
+  * New upstream release [April 2014].
+  * TODO.Debian: added note to install init scripts.
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Sat, 05 Apr 2014 02:37:27 +1100
+
 libteam (1.9-1) experimental; urgency=low
 
   * New upstream release [November 2013].

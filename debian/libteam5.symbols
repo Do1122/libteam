@@ -66,6 +66,7 @@ libteam.so.5 libteam5 #MINVER#
  team_is_ifinfo_master_ifindex_changed@Base 1.7
  team_is_ifinfo_phys_port_id_changed@Base 1.7
  team_is_ifinfo_phys_port_id_len_changed@Base 1.7
+ team_is_ifinfo_removed@Base 1.10
  team_is_option_array@Base 1.7
  team_is_option_changed@Base 1.7
  team_is_option_changed_locally@Base 1.7
@@ -82,6 +83,7 @@ libteam.so.5 libteam5 #MINVER#
  team_port_remove@Base 1.7
  team_port_str@Base 1.7
  team_recreate@Base 1.7
+ team_refresh@Base 1.10
  team_set_active_port@Base 1.7
  team_set_bpf_hash_func@Base 1.7
  team_set_log_fn@Base 1.7

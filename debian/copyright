@@ -4,7 +4,7 @@ Upstream-Contact: Jiří Pírko <jpirko@redhat.com>
 Source: https://github.com/jpirko/libteam
 
 Files: *
-Copyright: 2011-2013 Jiri Pirko <jpirko@redhat.com>
+Copyright: 2011-2014 Jiri Pirko <jpirko@redhat.com>
                      Jiri Pirko <jiri@resnulli.us>
            2013      Jiri Zupka <jzupka@redhat.com>
 License: LGPL-2.1+
@@ -14,7 +14,7 @@ Copyright: 2013 Flavio Leitner <fbl@redhat.com>
 License: GPL-2
 
 Files: debian/*
-Copyright: 2012-2013 Dmitry Smirnov <onlyjob@debian.org>
+Copyright: 2012-2014 Dmitry Smirnov <onlyjob@debian.org>
 License: LGPL-2.1+
 
 License: LGPL-2.1+
