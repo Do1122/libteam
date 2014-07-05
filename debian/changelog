@@ -1,3 +1,11 @@
+libteam (1.11-1) unstable; urgency=low
+
+  * New upstream release [June 2014].
+  * Upload to unstable.
+  * Added "debian/gbp.conf".
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Sat, 05 Jul 2014 21:22:34 +1000
+
 libteam (1.10-1) experimental; urgency=low
 
   * New upstream release [April 2014].

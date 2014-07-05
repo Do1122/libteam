@@ -4,6 +4,7 @@ libteam.so.5 libteam5 #MINVER#
  team_carrier_get@Base 1.7
  team_carrier_set@Base 1.7
  team_change_handler_register@Base 1.7
+ team_change_handler_register_head@Base 1.11
  team_change_handler_unregister@Base 1.7
  team_check_events@Base 1.7
  team_create@Base 1.7
