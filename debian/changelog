@@ -1,3 +1,10 @@
+libteam (1.12-1) unstable; urgency=low
+
+  * New upstream release [August 2014].
+  * Minor "debian/control" cleanup: "git" removed from Build-Depends.
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Sun, 31 Aug 2014 11:22:48 +1000
+
 libteam (1.11-1) unstable; urgency=low
 
   * New upstream release [June 2014].
