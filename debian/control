@@ -23,14 +23,14 @@ Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends:
 Description: library for communication with Netlink kernel module
- "libteam" is a library for communication with kernel module (Netlink).
+ Libteam is a library for communication with the Netlink kernel module.
  It is used by `teamd`.
  .
  Libteam provides a mechanism to team multiple NICs (ports) at OSI Layer 2
  (Data link) into a single virtual NIC. The process is called "channel
  bonding", "Ethernet bonding", "channel teaming", "link aggregation", etc.
  This is already implemented in the Linux kernel by the bonding driver but
- unlike the bonding driver, libteam (user space) have the following
+ unlike the bonding driver, libteam (user space) has the following
  additional features:
   * load-balancing for LACP support
   * NS/NA (IPV6) link monitoring
@@ -53,7 +53,7 @@ Description: library for communication with `teamd` process
  (Data link) into a single virtual NIC. The process is called "channel
  bonding", "Ethernet bonding", "channel teaming", "link aggregation", etc.
  This is already implemented in the Linux kernel by the bonding driver but
- unlike the bonding driver, libteam (user space) have the following
+ unlike the bonding driver, libteam (user space) has the following
  additional features:
   * load-balancing for LACP support
   * NS/NA (IPV6) link monitoring
@@ -76,7 +76,7 @@ Description: library for controlling team network device -- dev files
  (Data link) into a single virtual NIC. The process is called "channel
  bonding", "Ethernet bonding", "channel teaming", "link aggregation", etc.
  This is already implemented in the Linux kernel by the bonding driver but
- unlike the bonding driver, libteam (user space) have the following
+ unlike the bonding driver, libteam (user space) has the following
  additional features:
   * load-balancing for LACP support
   * NS/NA (IPV6) link monitoring
@@ -96,7 +96,7 @@ Description: library for controlling team network device -- userspace utilities
  (Data link) into a single virtual NIC. The process is called "channel
  bonding", "Ethernet bonding", "channel teaming", "link aggregation", etc.
  This is already implemented in the Linux kernel by the bonding driver but
- unlike the bonding driver, libteam (user space) have the following
+ unlike the bonding driver, libteam (user space) has the following
  additional features:
   * load-balancing for LACP support
   * NS/NA (IPV6) link monitoring
