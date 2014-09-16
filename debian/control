@@ -46,8 +46,8 @@ Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends:
 Description: library for communication with `teamd` process
- "libteamdctl" is a library for communication with teamd process
- (via D-Bus, unix socket or zeromq). It is used by `teamdctl` utility.
+ libteamdctl is a library for communication with teamd process
+ (via D-Bus, Unix socket or zeromq). It is used by the `teamdctl` utility.
  .
  Libteam provides a mechanism to team multiple NICs (ports) at OSI Layer 2
  (Data link) into a single virtual NIC. The process is called "channel
