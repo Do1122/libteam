@@ -47,7 +47,7 @@ License: BSD-3-clause or GPL-2
  POSSIBILITY OF SUCH DAMAGE.
 
 Files: debian/*
-Copyright: 2012-2014 Dmitry Smirnov <onlyjob@debian.org>
+Copyright: 2012-2015 Dmitry Smirnov <onlyjob@debian.org>
 License: LGPL-2.1+
 
 License: LGPL-2.1+

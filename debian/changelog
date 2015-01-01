@@ -1,3 +1,11 @@
+libteam (1.15-1) UNRELEASED; urgency=medium
+
+  * New upstream release [December 2014].
+  * Standards-Version: 3.9.6.
+  * Lintianisation: pre-depends-directly-on-multiarch-support.
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Thu, 01 Jan 2015 15:34:36 +1100
+
 libteam (1.12-1) unstable; urgency=low
 
   * New upstream release [August 2014].
