@@ -70,6 +70,7 @@ Pre-Depends: multiarch-support
 Depends: ${misc:Depends}
         ,libteam5 (= ${binary:Version})
         ,libteamdctl0 (= ${binary:Version})
+        ,libnl-3-dev
 Recommends:
 Description: library for controlling team network device -- dev files
  Libteam provide mechanism to team multiple NICs (ports) into one
