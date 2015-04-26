@@ -1,14 +1,19 @@
-libteam (1.16-1) UNRELEASED; urgency=low
+libteam (1.17-1) unstable; urgency=low
 
-  * New upstream release [March 2015].
+  * New upstream release [April 2015].
   * Standards-Version: 3.9.6.
   * Lintianisation: pre-depends-directly-on-multiarch-support.
   * Improved long package description (Closes: #760900);
     Thanks, Filipus Klutiero.
-  * libteam-dev to Depend on "libnl-3-dev" (Closes: #780855);
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Sun, 26 Apr 2015 20:37:38 +1000
+
+libteam (1.12-2) unstable; urgency=medium
+
+  * "libteam-dev" to Depend on "libnl-3-dev" (Closes: #780855).
     Thanks, Marco d'Itri.
 
- -- Dmitry Smirnov <onlyjob@debian.org>  Wed, 25 Mar 2015 14:17:37 +1100
+ -- Dmitry Smirnov <onlyjob@debian.org>  Wed, 25 Mar 2015 14:34:00 +1100
 
 libteam (1.12-1) unstable; urgency=low
 

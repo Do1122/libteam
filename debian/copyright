@@ -4,7 +4,7 @@ Upstream-Contact: Jiří Pírko <jpirko@redhat.com>
 Source: https://github.com/jpirko/libteam
 
 Files: *
-Copyright: 2011-2014 Jiri Pirko <jpirko@redhat.com>
+Copyright: 2011-2015 Jiri Pirko <jpirko@redhat.com>
                      Jiri Pirko <jiri@resnulli.us>
            2013      Jiri Zupka <jzupka@redhat.com>
            2014      Erik Hugne <erik.hugne@ericsson.com>
