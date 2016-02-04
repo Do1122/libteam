@@ -15,6 +15,7 @@ libteam.so.5 libteam5 #MINVER#
  team_get_event_fd@Base 1.7
  team_get_eventfd_fd@Base 1.7
  team_get_ifinfo@Base 1.7
+ team_get_ifinfo_admin_state@Base 1.23
  team_get_ifinfo_hwaddr@Base 1.7
  team_get_ifinfo_hwaddr_len@Base 1.7
  team_get_ifinfo_ifindex@Base 1.7
@@ -60,6 +61,7 @@ libteam.so.5 libteam5 #MINVER#
  team_ifinfo_str@Base 1.7
  team_ifname2ifindex@Base 1.7
  team_init@Base 1.7
+ team_is_ifinfo_admin_state_changed@Base 1.23
  team_is_ifinfo_changed@Base 1.7
  team_is_ifinfo_hwaddr_changed@Base 1.7
  team_is_ifinfo_hwaddr_len_changed@Base 1.7

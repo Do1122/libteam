@@ -1,3 +1,10 @@
+libteam (1.23-1) unstable; urgency=medium
+
+  * New upstream release [December 2015] (Closes: #813669).
+  * Updated Vcs URLs.
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Thu, 04 Feb 2016 20:12:19 +1100
+
 libteam (1.18-1) unstable; urgency=low
 
   * New upstream release [August 2015].
