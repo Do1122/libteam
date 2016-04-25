@@ -1,4 +1,5 @@
 libteamdctl.so.0 libteamdctl0 #MINVER#
+* Build-Depends-Package: libteam-dev
  teamdctl_alloc@Base 1.7
  teamdctl_config_actual_get_raw@Base 1.7
  teamdctl_config_actual_get_raw_direct@Base 1.9

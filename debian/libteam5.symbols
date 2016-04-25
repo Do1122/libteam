@@ -1,4 +1,5 @@
 libteam.so.5 libteam5 #MINVER#
+* Build-Depends-Package: libteam-dev
  team_alloc@Base 1.7
  team_call_eventfd_handler@Base 1.7
  team_carrier_get@Base 1.7
