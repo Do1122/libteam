@@ -11,7 +11,7 @@ Build-Depends: debhelper (>= 9), dh-autoreconf
               ,libnl-genl-3-dev
               ,libnl-route-3-dev (>= 3.2.19)
               ,pkg-config
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 Homepage: http://libteam.org
 Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/libteam.git
 Vcs-Git: https://anonscm.debian.org/collab-maint/libteam.git
