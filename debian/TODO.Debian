@@ -6,3 +6,11 @@
 
  * Install init scripts (teamd/redhat)
  :: Help needed.
+
+ * Test "/etc/network/interfaces" scripts (if-post-down, if-pre-up).
+~~~~
+auto  team0
+iface team0 inet dhcp
+    team-mode    loadbalance
+    team-slaves  eth0 eth1 eth2 eth3
+~~~~

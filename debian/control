@@ -91,6 +91,8 @@ Description: library for controlling team network device -- dev files
 Package: libteam-utils
 Architecture: linux-any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+# if-pre-up, if-post-down:
+#    ,jq
 Recommends:
 Description: library for controlling team network device -- userspace utilities
  Libteam provides a mechanism to team multiple NICs (ports) at OSI Layer 2
