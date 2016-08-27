@@ -1,1 +1,2 @@
 usr/bin
+teamd/dbus/teamd.conf    /etc/dbus-1/system.d/
