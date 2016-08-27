@@ -1,3 +1,13 @@
+libteam (1.26-1) unstable; urgency=medium
+
+  * New upstream release [August 2016].
+  * Install D-Bus rules "teamd.conf" (Closes: #833645).
+    Thanks, Charles Malaheenee.
+  * Provides += "teamd".
+  * Corrected Vcs-Git URL.
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Sat, 27 Aug 2016 22:18:43 +1000
+
 libteam (1.24-1) unstable; urgency=medium
 
   * New upstream release [April 2016].
