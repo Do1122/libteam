@@ -94,6 +94,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 # if-pre-up, if-post-down:
 #    ,jq
 Recommends:
+Provides: teamd
 Description: library for controlling team network device -- userspace utilities
  Libteam provides a mechanism to team multiple NICs (ports) at OSI Layer 2
  (Data link) into a single virtual NIC. The process is called "channel
