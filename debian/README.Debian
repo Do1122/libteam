@@ -65,7 +65,7 @@
  *  Extensibility. Anyone can easily add features/change behaviour
  *  Better system stability (daemon crash is always better than
     kernel panic/memory corruption etc.)
- *  Better debugging posibilities.
+ *  Better debugging possibilities.
 
 The goal of team device is to supersede bonding functionality
 and then kill it eventually.
