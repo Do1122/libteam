@@ -21,7 +21,7 @@ Architecture: linux-any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Recommends:
+Recommends: ${misc:Recommends}
 Description: library for communication with Netlink kernel module
  Libteam is a library for communication with the Netlink kernel module.
  It is used by `teamd`.
@@ -44,7 +44,7 @@ Architecture: linux-any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Recommends:
+Recommends: ${misc:Recommends}
 Description: library for communication with `teamd` process
  libteamdctl is a library for communication with teamd process
  (via D-Bus, Unix socket or zeromq). It is used by the `teamdctl` utility.
@@ -71,7 +71,7 @@ Depends: ${misc:Depends}
         ,libteam5 (= ${binary:Version})
         ,libteamdctl0 (= ${binary:Version})
         ,libnl-3-dev
-Recommends:
+Recommends: ${misc:Recommends}
 Description: library for controlling team network device -- dev files
  Libteam provides a mechanism to team multiple NICs (ports) at OSI Layer 2
  (Data link) into a single virtual NIC. The process is called "channel
@@ -93,7 +93,7 @@ Architecture: linux-any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 # if-pre-up, if-post-down:
 #    ,jq
-Recommends:
+Recommends: ${misc:Recommends}
 Provides: teamd
 Description: library for controlling team network device -- userspace utilities
  Libteam provides a mechanism to team multiple NICs (ports) at OSI Layer 2

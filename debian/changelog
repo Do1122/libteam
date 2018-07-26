@@ -1,3 +1,12 @@
+libteam (1.27-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Vcs URLs to Salsa.
+  * Standards-Version: 4.1.5.
+  * debhelper & compat to version 11.
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Fri, 27 Jul 2018 03:00:18 +1000
+
 libteam (1.26-1) unstable; urgency=medium
 
   * New upstream release [August 2016].

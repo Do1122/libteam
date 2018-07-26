@@ -49,6 +49,7 @@ libteam.so.5 libteam5 #MINVER#
  team_get_option_value_string@Base 1.7
  team_get_option_value_u32@Base 1.7
  team_get_port_duplex@Base 1.7
+ team_get_port_enabled@Base 1.27
  team_get_port_ifindex@Base 1.7
  team_get_port_ifinfo@Base 1.7
  team_get_port_priority@Base 1.7
