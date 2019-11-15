@@ -5,10 +5,6 @@ include:
 
 ## "amd64-unstable" always runs by default followed by lintian.
 
-## Only for arch:all packages - remove if not required:
-binary-indep:
-  extends: .build-indep
-
 ## Job to check Build-Depends versioning:
 amd64-testing_unstable:
   extends: .build
