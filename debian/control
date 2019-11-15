@@ -4,6 +4,7 @@ Priority: optional
 Standards-Version: 4.3.0
 Maintainer: Dmitry Smirnov <onlyjob@debian.org>
 Build-Depends: debhelper (>= 11~)
+#             ,libcap-dev
               ,libdaemon-dev
               ,libdbus-1-dev
               ,libjansson-dev
