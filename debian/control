@@ -1,7 +1,7 @@
 Source: libteam
 Section: net
 Priority: optional
-Standards-Version: 4.3.0
+Standards-Version: 4.4.1
 Maintainer: Dmitry Smirnov <onlyjob@debian.org>
 Build-Depends: debhelper (>= 11~)
 #             ,libcap-dev
