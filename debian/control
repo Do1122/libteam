@@ -3,7 +3,7 @@ Section: net
 Priority: optional
 Standards-Version: 4.4.1
 Maintainer: Dmitry Smirnov <onlyjob@debian.org>
-Build-Depends: debhelper (>= 11~)
+Build-Depends: debhelper-compat (= 12)
 #             ,libcap-dev
               ,libdaemon-dev
               ,libdbus-1-dev
